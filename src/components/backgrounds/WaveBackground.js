@@ -7,7 +7,7 @@ export default function WaveBackground(){
         <Wavefirst src="/images/waves/wave1upper.svg" style={{top:"304px"}}/>
         <Wavefirst src="/images/waves/middlecurve.svg" style={{top:"430px"}}/>
         <WavefirstTop src="/images/waves/lowercurve.svg" style={{top:"37px"}}/>
-        <Wave src="/images/waves/bottommost_curve.svg" style={{top:"576px"}}/>
+        <Wave src="/images/waves/bottommostcurve.svg" style={{top:"576px"}}/>
         {/* <Wavefirst src="/images/waves/wave4.png" style={{top:"776px"}}/> */}
 
     </Wrapper>
