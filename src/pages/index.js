@@ -1,5 +1,15 @@
-import * as React from "react"
+import React from "react"
+import Layout from "../components/layout/layout"
+import SEO from "../components/layout/seo"
+import HeroSection from "../components/sections/HeroSection"
 
-export default function Home() {
-  return <div>Hello world!</div>
+function IndexPage() {
+  return (
+    <Layout>
+      <SEO title="Landing Page" />
+      <HeroSection/>
+    </Layout>
+  )
 }
+
+export default IndexPage
