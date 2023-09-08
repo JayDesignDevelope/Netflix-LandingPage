@@ -14,7 +14,7 @@ function HeroSection() {
         <WaveBackground/>
       <ContentWrapper>
         <TextWrapper>
-            <Icon src="/images/logos/netflixnewlogo.png" className="iconLogo" />
+            <Icon src="/images/logos/netflixnewlogo.png" />
             <Title>
             Netflix
           </Title>

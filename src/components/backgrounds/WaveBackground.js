@@ -6,10 +6,7 @@ export default function WaveBackground(){
         <Background/>
         <Wavefirst src="/images/waves/wave1upper.svg" style={{top:"304px"}}/>
         <Wavefirst src="/images/waves/middlecurve.svg" style={{top:"430px"}}/>
-        <WavefirstTop src="/images/waves/lowercurve.svg" style={{top:"37px"}}/>
         <Wave src="/images/waves/bottommostcurve.svg" style={{top:"576px"}}/>
-        {/* <Wavefirst src="/images/waves/wave4.png" style={{top:"776px"}}/> */}
-
     </Wrapper>
 }
 const Wrapper=styled.div`
@@ -41,8 +38,7 @@ z-index: -1;
 
 
 const Background=styled.div`
-background: linear-gradient(180deg, #381C1E 0.65%, #E50914 77.68%);
-position: absolute;
+background: linear-gradient(180deg, #000 0.65%, #E50914 77.68%);position: absolute;
 width:100%;
 height: 800px;
 z-index: -1;
