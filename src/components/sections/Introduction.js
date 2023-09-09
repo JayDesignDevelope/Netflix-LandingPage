@@ -39,19 +39,14 @@ function Introduction() {
         </Container_Left_para>
     </Container_Left_h1>
     
-
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <HoverCardContainer src="/images/cards/hovercardnew.png" />
         </div>
-
         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <HoverCardFlipedContainer src="/images/cards/hovercardanother.png" />
         </div>
       </ReactCardFlip>
-
-  
-
     </Wrapper>
     
   )

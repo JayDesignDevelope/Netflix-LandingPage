@@ -12,7 +12,7 @@ return (
             <Box4 src="/images/cards/b4.png"/>
             <Box5 src="/images/cards/b5.png"/>
             <Box6 src="/images/cards/b6.png"/>
-            <Box7 src="/images/cards/b7.png"/>
+            <Box7 src="/images/logos/netflixnewlogo.png"/>
             <Box8 src="/images/cards/figmabtn.png"/>
 
 
@@ -63,13 +63,14 @@ font-size:3rem;
 
 const Box1=styled.img`
 margin: 1rem;
-width: 20rem;
+width: auto;
 height: auto
 `
 
 const Box2=styled.img`
-width: 34rem;
+width: 32rem;
 height: auto;
+right: 10%;
 `
 
 const Box3=styled.img`
@@ -112,6 +113,7 @@ bottom:1%;
 width: auto;
 height: auto;
 position: absolute;
+cursor: pointer;
 `
 
 
