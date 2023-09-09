@@ -6,7 +6,7 @@ return (
 <Wrapper>
     <ContentWrapper>
         <ParentBox>
-            <Box1 src="/images/cards/b1.png"/>
+            <Box1 src="/images/cards/b11.png"/>
             <Box2 src="/images/cards/b2.png"/>
             <Box3 src="/images/cards/b3.png"/>
             <Box4 src="/images/cards/b4.png"/>
@@ -63,8 +63,8 @@ font-size:3rem;
 
 const Box1=styled.img`
 margin: 1rem;
-width: auto;
-height: auto
+width: 334px;
+height: 284px
 `
 
 const Box2=styled.img`
