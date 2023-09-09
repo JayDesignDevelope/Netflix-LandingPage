@@ -7,24 +7,23 @@ import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
 import Introduction from "./Introduction"
 import Architecture from "./Architecture"
+import DesignSystem from "./DesignSystem"
 
 function HeroSection() {
   return (
     <Wrapper>
         <WaveBackground/>
-      <ContentWrapper>
-        <TextWrapper>
+        <ContentWrapper>
+          <TextWrapper>
             <Icon src="/images/logos/netflixnewlogo.png" />
-            <Title>
-            Netflix
-          </Title>
-          <Description>
-          Design an iOS app from scratch for iOS 13, iPadOS and Big Sur.
-          </Description>
+              <Title>
+                Netflix
+              </Title>
+              <Description>
+                Design an iOS app from scratch for iOS 13, iPadOS and Big Sur.
+              </Description>
           <PurchaseButton
-            title="Run"
-          
-          />
+            title="Run"/>
         </TextWrapper>
         <MockupAnimation />
         
@@ -94,7 +93,6 @@ const Title = styled(H1)`
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
 
 mix-blend-mode: normal;
 

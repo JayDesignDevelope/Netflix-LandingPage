@@ -1,10 +1,21 @@
-import React from "react"
+import React ,{ useState }from "react"
 import styled,{ keyframes }from "styled-components"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
+import ReactCardFlip from 'react-card-flip';
 
 
 function Introduction() {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsFlipped(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsFlipped(false);
+  };
+
   return (
     <Wrapper>
     <Container_Left_h1>
@@ -27,12 +38,25 @@ function Introduction() {
             </Para>
         </Container_Left_para>
     </Container_Left_h1>
-    <HoverCardContainer src="/images/cards/hovercard.svg" />
+    
+
+      <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+        <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <HoverCardContainer src="/images/cards/hovercardnew.png" />
+        </div>
+
+        <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <HoverCardFlipedContainer src="/images/cards/hovercardanother.png" />
+        </div>
+      </ReactCardFlip>
+
+  
 
     </Wrapper>
     
   )
 }
+
 
 export default Introduction
 
@@ -81,8 +105,17 @@ display: inline;
 width: 556px;
 height: 411px;
 margin-left: 12rem;
+
+transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+
 `
+const HoverCardFlipedContainer=styled.img`
+display: inline;
+width: 556px;
+height: 411px;
+margin-left: 12rem;
+transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
 
-
+`
 
 
