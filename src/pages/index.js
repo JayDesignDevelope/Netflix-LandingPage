@@ -4,6 +4,9 @@ import SEO from "../components/layout/seo"
 import HeroSection from "../components/sections/HeroSection"
 import DesignSystem from "../components/sections/DesignSystem"
 import Recommendation from "../components/sections/Recommendation"
+import SystemArchitecture from "../components/sections/SystemArchitecture"
+import DataAnalytics from "../components/sections/DataAnalytics"
+
 function IndexPage() {
   return (
     <Layout>
@@ -11,6 +14,8 @@ function IndexPage() {
       <HeroSection/>
       <DesignSystem/>
       <Recommendation/>
+      <SystemArchitecture/>
+      <DataAnalytics/>
 
     </Layout>
   )
