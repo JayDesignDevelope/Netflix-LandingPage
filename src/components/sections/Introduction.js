@@ -47,7 +47,10 @@ function Introduction() {
             <HoverCardFlipedContainer src="/images/cards/hovercardanother.png" />
         </div>
       </ReactCardFlip>
+
+      
     </Wrapper>
+    
     
   )
 }
@@ -111,6 +114,23 @@ height: 411px;
 margin-left: 12rem;
 transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
 
+`
+
+
+
+const Wave=styled.img`
+position: absolute;
+z-index: -1;
+
+  @media (min-width: 1440px) {
+    width: 100%;
+  }
+`
+
+const Wavefirst=styled.img`
+position: absolute;
+width: 100%;
+z-index: -1;
 `
 
 

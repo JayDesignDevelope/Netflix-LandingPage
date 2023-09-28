@@ -14,37 +14,33 @@ return (
             <Box6 src="/images/cards/b6.png"/>
             <Box7 src="/images/logos/netflixnewlogo.png"/>
             <Box8 src="/images/cards/figmabtn.png"/>
-
-
-
-
         </ParentBox>
-
         
-
     
     </ContentWrapper>
 </Wrapper>
 )
 }
 const Wrapper = styled.div`
-display: inline-flex;
-margin-left: 13%;
-
+ display: inline-flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center if needed */margin-left: 13%;
 padding: 1.25rem;
-
-
 border-radius: 1.25rem;
 border: 0.5px solid rgba(255, 255, 255, 0.20);
 background: rgba(15, 14, 71, 0.30);
 box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(20px);
+
+margin: 10% 0 0 23%;
 `
 
 const ContentWrapper = styled.div`
 
 display: flex;
-
+display: inline-flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center if needed */
 
 width: 74rem;
 height: 41.4375rem;

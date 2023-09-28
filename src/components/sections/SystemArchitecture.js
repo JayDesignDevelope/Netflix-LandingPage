@@ -21,7 +21,9 @@ export default function SystemArchitecture() {
                 After passing a test, we’ll award you with an online certificate. You can also submit projects as a result of taking our courses.
             </Description>
         </Container_Left_h1>
-            <Spline scene="https://prod.spline.design/FKx-G7FfNifXgwuZ/scene.splinecode" />
+        <splineContainer>
+          <Spline scene="https://prod.spline.design/FKx-G7FfNifXgwuZ/scene.splinecode" />
+        </splineContainer>
 
     </Wrapper>
   )
@@ -42,6 +44,11 @@ z-index: -1;
   @media (min-width: 1440px) {
     width: 100%;
   }
+`
+
+const splineContainer=styled.div`
+width: 10rem;
+height: auto;
 `
 
 const Wavefirst=styled.img`

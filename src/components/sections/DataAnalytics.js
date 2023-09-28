@@ -4,40 +4,41 @@ import { H1, MediumText } from "../styles/TextStyles"
 
 export default function DataAnalytics() {
   return (
-    <>
-    <Container_Left_h1>
-        <Heading>
-            Meeting Global Dataset of Netflix 
-            <br></br>and Data Analysis    
-        </Heading>
-        <Description>
-            After passing a test, we’ll award you with an online certificate. You can also submit projects as a result of taking our courses.
-        </Description>
-    </Container_Left_h1>
+    <Container>
+      <Container_Left_h1>
+          <Heading>
+              Meeting Global Dataset of Netflix 
+              <br></br>and Data Analysis    
+          </Heading>
+          <Description>
+              After passing a test, we’ll award you with an online certificate. You can also submit projects as a result of taking our courses.
+          </Description>
+      </Container_Left_h1>
 
-    <Wrapper>
-        <Wavefirst src="/images/waves/linewaves.svg" style={{top:"10px"}}/>
-    </Wrapper>
+      <Wrapper>
+          <Wavefirst src="/images/waves/linewaves.svg" style={{top:"10px"}}/>
+      </Wrapper>
 
-    <WrapperBox >
-            
-        <Box1 src="/images/cards/dashboardcard.svg"/>                
-               
-    </WrapperBox>
-
-    <Box8 src="/images/cards/explorebtn.png"/>
-
-    <Wrapper>
-        <Wavefirst src="/images/waves/wavea1.svg" style={{top:"200px"}}/>
-        <Wavefirst src="/images/waves/wave12.svg" style={{top:"400px"}}/>
-    </Wrapper>
-    </>
+      <WrapperBox >
+              
+          <Box1 src="/images/cards/dashboardcard.svg"/>                
+                
+      </WrapperBox>
+      <Box8 src="/images/cards/explorebtn.png"/>
+      <Wrapper>
+          <Wavefirst src="/images/waves/wavea1.svg" style={{top:"200px"}}/>
+          <Wavefirst src="/images/waves/wave12.svg" style={{top:"400px"}}/>
+      </Wrapper>
+    </Container>
   )
 }
 
-const ParentBox=styled.div`
+const Container = styled.div`
+     justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
 
 `
+
 const Box8=styled.img`
 width: auto;
 margin-left: 36rem;
