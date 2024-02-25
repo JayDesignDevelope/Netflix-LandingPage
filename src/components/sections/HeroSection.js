@@ -6,8 +6,6 @@ import PurchaseButton from "../buttons/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
 import Introduction from "./Introduction"
-import Architecture from "./Architecture"
-import DesignSystem from "./DesignSystem"
 
 function HeroSection() {
   return (

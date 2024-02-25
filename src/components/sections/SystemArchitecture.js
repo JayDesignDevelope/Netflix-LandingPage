@@ -13,7 +13,14 @@ export default function SystemArchitecture() {
 
 
         <Wave src="/images/waves/bottommostcurve.svg" style={{top:"616px"}}/>
-        <Container_Left_h1>
+
+
+
+       
+        <Wrapper>
+          <Container>
+              
+              <Container_Left_h1>
             <Heading>
                 System Architecture
             </Heading>
@@ -21,13 +28,37 @@ export default function SystemArchitecture() {
                 After passing a test, we’ll award you with an online certificate. You can also submit projects as a result of taking our courses.
             </Description>
         </Container_Left_h1>
-        <splineContainer>
-          <Spline scene="https://prod.spline.design/FKx-G7FfNifXgwuZ/scene.splinecode" />
-        </splineContainer>
+          </Container>
+        </Wrapper>
+        
 
     </Wrapper>
   )
 }
+
+
+const Container=styled.div`
+width: 76rem;
+height: auto;
+flex-shrink: 0;
+margin: 0 0 10% 13%;
+
+
+border-radius: 2.05656rem;
+border: 0.548px solid rgba(255, 255, 255, 0.30);
+background: radial-gradient(158.47% 130% at 100% 100%, rgba(229, 9, 20, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%);
+box-shadow: 0px 32.90461px 65.80921px 0px rgba(39, 77, 153, 0.20);
+backdrop-filter: blur(21.936403274536133px);
+
+
+text-align: center;
+  max-width: 1234px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 360px auto;
+
+`
+
 
 
 
@@ -68,6 +99,7 @@ z-index: -1;
 
 const Heading=styled(H1)`
   color: white;
+  text-align: left;
   font-family: SF Pro Display;
   font-size: 2.5rem;
   font-style: normal;
@@ -92,7 +124,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 140%;
-margin-left: 12rem;
+margin: 0 0 12rem 12rem;
 text-align: left;
 color: rgba(255, 255, 255, 0.7);
 
